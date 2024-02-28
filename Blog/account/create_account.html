@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="account.css" type="text/css" rel="stylesheet">
+
+
+    <title>Sign Up</title>
+</head>
+<body>
+    <div>
+
+    <fieldset>
+            <legend>Sign Up</legend>
+        <form>
+        <label class="label_account">Full Name <br/> 
+        <input type ="text" name ="name" required="required" placeholder="Enter Full Name.."></label><br/>
+
+        <label class="label_account">Username</label><br/>
+        <input type ="text" name ="nick" required="required" placeholder="Enter Username..."></label><br/>
+
+        <label class="label_account">Email Address<br/>
+        <input type ="email" name ="email" required="required" placeholder="Enter Email Adress..."></label><br/>
+        
+        
+        <div id="date">
+        <label class="label_account">Date of Birth</label><br/>
+        <input type="number" name="day" required="required" placeholder="DD">
+        <input type="number" name="month" required="required" placeholder="MM">
+        <input type="number" name="year" required="required" placeholder="YYYY">
+        </div>
+
+        <label class="label_account">Gender</label><br/>
+        <input type ="radio" name ="gender"required="required"> Male
+        <input type ="radio" name ="gender"required="required"> Female<br/>
+
+        <input type="submit" value="Submit" /><br/>
+
+        </form>
+        <p class="redirect_page">Already have an account? <a href ="login.html">Login</a></p>
+        <p> <a href="forgot_password.html">Continue as Guest</a></p>
+    </fieldset>
+        
+
+    </div>
+</body>
+</html>
